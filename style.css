@@ -316,6 +316,16 @@ h2::after {
   box-shadow: var(--shadow);
   position: relative;
   font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-avatar {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
 }
 
 .testimonial-card::before {
@@ -333,6 +343,7 @@ h2::after {
   font-style: normal;
   border-top: 1px solid var(--secondary-color);
   padding-top: 1rem;
+  width: 100%;
 }
 
 .testimonial-author h4 {
